@@ -5,3 +5,8 @@ NextJs Type-Script training
 
 ### SWR 
  - https://swr.vercel.app/
+
+
+### Extend Tools ###
+- [Quick type](https://quicktype.io/)
+- [Transfrom type](https://transform.tools/json-to-typescript)

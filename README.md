@@ -9,7 +9,13 @@
  - https://swr.vercel.app/
  - [cache explain for SWR](https://swr.vercel.app/docs/advanced/cache)
 
+### Layout ###
+ - Component
+   - NextComponentType
+ - Head
+
 
 ### Extend Tools ###
 - [Quick type](https://quicktype.io/)
 - [Transfrom type](https://transform.tools/json-to-typescript)
+- [Type Guard specific constant variable in scoop ](https://www.qualdesk.com/blog/2021/type-guard-for-string-union-types-typescript/)

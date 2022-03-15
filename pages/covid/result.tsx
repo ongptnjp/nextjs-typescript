@@ -10,8 +10,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
         method: 'GET'
     })
 
-    const result = await response.json()
-
+    const result: CovidResultInfo = await response.json()
 
     return {
         props: {

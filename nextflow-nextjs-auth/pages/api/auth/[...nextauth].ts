@@ -22,7 +22,13 @@ export default nextAuth({
                 }
                 
                 return user;
-            }
+            },
         })
-    ]
+    ],
+    callbacks: {
+        async session({ session, token, user }){
+            session.role = "Bilionire";
+            return session;
+        }
+    }
 });

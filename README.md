@@ -22,8 +22,8 @@
    - <Html />
    - <NextScript />
 
-### Error ###
- - 
+### Next Auth ###
+ - [Next-Auth](https://next-auth.js.org/)
 
 
 ### Extend Tools ###
@@ -34,3 +34,4 @@
 - [Transfrom type](https://transform.tools/json-to-typescript)
 - [Type Guard specific constant variable in scoop ](https://www.qualdesk.com/blog/2021/type-guard-for-string-union-types-typescript/)
 - [Edge function NextJs (on alpha test)](https://github.com/vercel/examples/tree/main/edge-functions)
+- [What's new Type-script](https://www.typescriptlang.org/docs/handbook/release-notes/overview.html)

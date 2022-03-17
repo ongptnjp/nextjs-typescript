@@ -12,7 +12,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     }
 }
 
-const ProtectedPage: NextPage = ({ }: InferGetServerSidePropsType<typeof getServerSideProps>) => {
+const ProtectedPage: NextPage = ({ session }: InferGetServerSidePropsType<typeof getServerSideProps>) => {
 
     const router = useRouter()
 
@@ -30,6 +30,7 @@ const ProtectedPage: NextPage = ({ }: InferGetServerSidePropsType<typeof getServ
     return (
         <div>
             <h1>Protected Page</h1>
+            <p>Role : {session?.role}</p>
             <a onClick={onSignOut}>Sign out</a>
         </div>
     )

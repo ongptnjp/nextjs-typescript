@@ -17,10 +17,10 @@
    - NextComponentType
  - <Head /> from next
  - Document
-   - <Head /> from Document
-   - <Main />
-   - <Html />
-   - <NextScript />
+   - `<Head />` from Document
+   - `<Main />`
+   - `<Html />`
+   - `<NextScript />`
 
 ### Next Auth ###
  - [Next-Auth](https://next-auth.js.org/)
